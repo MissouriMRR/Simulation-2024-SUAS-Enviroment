@@ -204,8 +204,8 @@ namespace airlib
               See OCTO X configuration on http://ardupilot.org/copter/docs/connect-escs-and-motors.html
 
                      x-axis
-                  
-                 (4)  |  (0) 
+
+                 (4)  |  (0)
                       |
             (6)       |       (2)
             __________|__________  y-axis
@@ -215,14 +215,14 @@ namespace airlib
                  (1)  |  (3)
 
             0 CW: 67.5 from +Y
-            1 CW: 67.5 from -Y 
+            1 CW: 67.5 from -Y
             2 CCW: 22.5 from +Y
             3 CCW: 22.5 from -X
             4 CCW: 22.5 from +X
             5 CCW: 22.5 from -Y
             6 CW: 67.5 from +X
             7 CW: 67.5 from -X
-            
+
             */
 
                 // vectors below are rotated according to NED left hand rule (so the vectors are rotated counter clockwise).

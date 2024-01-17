@@ -8,7 +8,7 @@
 #include "AirSimGameMode.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class AIRSIM_API AAirSimGameMode : public AGameModeBase

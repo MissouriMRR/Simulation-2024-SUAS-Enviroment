@@ -15,7 +15,7 @@ namespace airlib
     /*
     ObstacleMap implements 2D map of obstacles in circular disk around the vehicle. The main
     design criteria is to make insert/delete/queries very fast. This is typically
-    not possible in grid based approach because these operations may have large 
+    not possible in grid based approach because these operations may have large
     constant. Current code is designed to be O(1) with small constant. This will
     enable sensors like lasers which needs much faster processing.
 
@@ -31,7 +31,7 @@ namespace airlib
     Each segment between two ticks forms a cone in the circle where we will put the obstacle
     information. The segment between ticks 0-1 is 0, 1-2 is 1 and so on. So this scheme allows
     us to get the front cone always at segment 0. If we have only 4 sensors like in DJI Matrice
-    Guidance system then segment 1 has information about obstacles on right, seg 2 for back and 
+    Guidance system then segment 1 has information about obstacles on right, seg 2 for back and
     so on.
 
     Another design criteria is that this class is thread safe for concurrent updates and queries.

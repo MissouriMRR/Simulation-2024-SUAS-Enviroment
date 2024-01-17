@@ -50,7 +50,7 @@ namespace airlib
         Ref:
             A Comparison between Different Error Modeling of MEMS Applied to GPS/INS Integrated Systems
             Quinchia, sec 3.2, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3812568/
-        
+
             A Study of the Effects of Stochastic Inertial Sensor Errors in Dead-Reckoning Navigation
             John H Wall, 2007, eq 2.5, pg 13, http://etd.auburn.edu/handle/10415/945
         */

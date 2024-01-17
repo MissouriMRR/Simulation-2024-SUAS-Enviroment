@@ -218,9 +218,9 @@ namespace airlib
         correctly as vehicle moves in any direction and if field component signs are correct. For this purpose, simple
         diapole model is good enough. Keep in mind that actual field values may differ by as much as 10X in either direction
         although for many tests differences seems to be within 3X or sometime even to first decimal digit. Again what matters is
-        how field changes wrt to movement as opposed to actual field values. To get better field strength one should use latest 
-        World Magnetic Model like WMM2015 from NOAA. However these recent model is fairly complex and very expensive to calculate. 
-        Other possibilities: 
+        how field changes wrt to movement as opposed to actual field values. To get better field strength one should use latest
+        World Magnetic Model like WMM2015 from NOAA. However these recent model is fairly complex and very expensive to calculate.
+        Other possibilities:
             - WMM2010 mocel, expensive to compute: http://williams.best.vwh.net/magvar/magfield.c
             - Android's mag field calculation (still uses WMM2010 and fails at North Pole): https://goo.gl/1CZB9x
 

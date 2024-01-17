@@ -7,11 +7,11 @@
 #include "SUAS_EnvironmentGameModeBase.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class SUAS_ENVIRONMENT_API ASUAS_EnvironmentGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
 };

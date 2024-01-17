@@ -18,7 +18,7 @@ namespace airlib
     // https://github.com/ethz-asl/kalibr/wiki/IMU-Noise-Model-and-Intrinsics
     struct ImuSimpleParams
     {
-        /* ref: Parameter values are for MPU 6000 IMU from InvenSense 
+        /* ref: Parameter values are for MPU 6000 IMU from InvenSense
     Design and Characterization of a Low Cost MEMS IMU Cluster for Precision Navigation
     Daniel R. Greenheck, 2009, sec 2.2, pp 17
     http://epublications.marquette.edu/cgi/viewcontent.cgi?article=1326&context=theses_open

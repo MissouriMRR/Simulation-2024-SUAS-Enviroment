@@ -33,7 +33,7 @@ enum class EWeatherParamVector : uint8
     WEATHER_PARAM_VECTOR_MAX = 1 UMETA(DisplayName = "MAX")
 };
 /**
- * 
+ *
  */
 UCLASS(BlueprintType)
 class AIRSIM_API UWeatherLib : public UBlueprintFunctionLibrary

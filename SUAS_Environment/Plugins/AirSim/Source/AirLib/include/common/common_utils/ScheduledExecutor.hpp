@@ -154,7 +154,7 @@ private:
         This is spin loop implementation which may be suitable for sub-millisecond resolution.
         //TODO: investigate below alternatives
         On Windows we can use multimedia timers however this requires including entire Win32 header.
-        On Linux we can use nanosleep however below 2ms delays in real-time scheduler settings this 
+        On Linux we can use nanosleep however below 2ms delays in real-time scheduler settings this
         probbaly does spin loop anyway.
 
         */
