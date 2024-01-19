@@ -10,3 +10,15 @@ Documentation for environment setup, contributing code, flight testing, and debu
 1. [Environment Setup](https://missourimrr.github.io/docs/simulation/install/)
 2. [Fly Drone with Code](https://missourimrr.github.io/docs/simulation/flying/)
 3. [Debugging](https://missourimrr.github.io/docs/simulation/environment-debug/windows)
+
+## Contributing Code
+
+### Large Files
+
+Files larger than 100 MB must be tracked with `git-lfs`. Install `git-lfs` ([click here](https://git-lfs.com)) if you haven't installed it before, then run the following command to track a file:
+
+```sh
+git lfs track <path-to-large-file>
+```
+
+Ideally, do this *before* you run `git add` the file. You should run `git lfs track` from the root of the project.
