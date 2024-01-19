@@ -1,7 +1,7 @@
 # Simulation-2024
 Missouri S&amp;T Multirotor Design Team's simulation environments for our 2023-2024 competition: the Student Unmanned Aerial Systems Competition (SUAS)
 
-Documentation: [Software Subteam Docs]()
+Documentation: [Software Subteam Docs](https://missourimrr.github.io/docs/simulation/)
 
 ## Getting Started
 
