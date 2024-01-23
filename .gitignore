@@ -1,6 +1,9 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+#Stop airsim plugin from being added
+Plugins/AirSim/
+
 # Compiled Object files
 *.slo
 *.lo

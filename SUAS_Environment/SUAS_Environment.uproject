@@ -14,10 +14,7 @@
 		}
 	],
 	"Plugins": [
-		{
-			"Name": "GeoReferencing",
-			"Enabled": true
-		},
+
 		{
             "Name": "AirSim",
             "Enabled": true
