@@ -1,3 +1,5 @@
+Branch Specific: The goal of this branch is to create the SUAS airport using satelite images and 3d modeling. Hopefully to be merged with simple-map once GeoReferencing is figured out.
+
 # Simulation-2024
 Missouri S&amp;T Multirotor Design Team's simulation environments for our 2023-2024 competition: the Student Unmanned Aerial Systems Competition (SUAS)
 
